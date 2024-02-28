@@ -1,0 +1,60 @@
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+    max-width: 960px;
+    margin: 20px auto 20px;
+    padding: 0 20px;
+}
+
+section img {
+    margin-right: 20px;
+}
+
+section div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section h4 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section nav {
+    margin-top: auto;
+}
+
+footer {
+    background-color: #ddd;
+    color: #333;
+    padding: 20px;
+}
